@@ -1,0 +1,6 @@
+type Product @model {
+  id: ID!
+  owner: String!
+  name: String!
+  imageKey: String
+}
